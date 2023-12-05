@@ -16,6 +16,8 @@ class MyApp extends StatelessWidget {
       title: 'Foodstore',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        primarySwatch: Colors.pink,
+        accentColor : Colors.amber,
         useMaterial3: true,
       ),
       home: const Categories()
