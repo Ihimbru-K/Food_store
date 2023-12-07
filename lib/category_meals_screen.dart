@@ -2,10 +2,10 @@
 
 import 'package:flutter/material.dart';
 class CategoryMealsScreen extends StatelessWidget {
-  final String CategoryId;
-  final String CategoryTitle;
-
-  CategoryMealsScreen(this.CategoryId, this.CategoryTitle);
+  // final String CategoryId;
+  // final String CategoryTitle;
+  //
+  // CategoryMealsScreen(this.CategoryId, this.CategoryTitle);
 
   @override
   Widget build(BuildContext context) {
