@@ -2,18 +2,72 @@ import 'package:flutter/material.dart';
 import './model/category.dart';
 import './model/meal.dart';
 
-const DUMMY_CATEGORIES = const{
-  Category(id: '1', title: 'Fufu and eru', color: const Color(0xFF006400)),
-  Category(id: '2', title: 'Fufu and khati-khati', color: Colors.lightGreen),
-  Category(id: '3', title: 'Achu', color: Colors.yellowAccent),
-  Category(id: '4', title: 'Ndole', color: Colors.green),
-  Category(id: '5', title: 'Ekwang', color: Color.fromRGBO(160, 191, 20, 1.0)),
-  Category(id: '6', title: 'Kwacoco', color: Colors.amber),
-  Category(id: '7', title: 'Bongo-chobi', color: Colors.brown),
-  Category(id: '8', title: 'Nangtarr', color: Colors.brown),
-  Category(id: '8', title: 'Koki', color: Colors.yellow),
+const DUMMY_CATEGORIES = const [
+  Category(
+    id: 'c1',
+    title: 'Italian',
+    color: Colors.purple,
+  ),
+  Category(
+    id: 'c2',
+    title: 'Quick & Easy',
+    color: Colors.red,
+  ),
+  Category(
+    id: 'c3',
+    title: 'Hamburgers',
+    color: Colors.orange,
+  ),
+  Category(
+    id: 'c4',
+    title: 'German',
+    color: Colors.amber,
+  ),
+  Category(
+    id: 'c5',
+    title: 'Light & Lovely',
+    color: Colors.blue,
+  ),
+  Category(
+    id: 'c6',
+    title: 'Exotic',
+    color: Colors.green,
+  ),
+  Category(
+    id: 'c7',
+    title: 'Breakfast',
+    color: Colors.lightBlue,
+  ),
+  Category(
+    id: 'c8',
+    title: 'Asian',
+    color: Colors.lightGreen,
+  ),
+  Category(
+    id: 'c9',
+    title: 'French',
+    color: Colors.pink,
+  ),
+  Category(
+    id: 'c10',
+    title: 'Summer',
+    color: Colors.teal,
+  ),
+];
 
-};
+
+// const DUMMY_CATEGORIES = const{
+//   Category(id: '1', title: 'Fufu and eru', color: const Color(0xFF006400)),
+//   Category(id: '2', title: 'Fufu and khati-khati', color: Colors.lightGreen),
+//   Category(id: '3', title: 'Achu', color: Colors.yellowAccent),
+//   Category(id: '4', title: 'Ndole', color: Colors.green),
+//   Category(id: '5', title: 'Ekwang', color: Color.fromRGBO(160, 191, 20, 1.0)),
+//   Category(id: '6', title: 'Kwacoco', color: Colors.amber),
+//   Category(id: '7', title: 'Bongo-chobi', color: Colors.brown),
+//   Category(id: '8', title: 'Nangtarr', color: Colors.brown),
+//   Category(id: '8', title: 'Koki', color: Colors.yellow),
+//
+// };
 const DUMMY_MEALS = [
   Meal(
     id: 'm1',
