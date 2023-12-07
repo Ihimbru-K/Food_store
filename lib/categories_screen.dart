@@ -13,14 +13,14 @@ class Categories extends StatelessWidget {
       body: GridView(
         padding: const EdgeInsets.all(25),
         children:
-      DUMMY_CATEGORIES.map((catData) => CategoryItem(catData.title, catData.color)).toList(),
+      DUMMY_CATEGORIES.map((catData) => CategoryItem(catData.id, catData.title, catData.color)).toList(),
 
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
           maxCrossAxisExtent: 200,
           childAspectRatio: 3/2,
-          mainAxisExtent: 20,
+         // mainAxisExtent: 20,
           crossAxisSpacing: 20,
-          mainAxisSpacing: 20
+         mainAxisSpacing: 20
         ),),
     );
   }
