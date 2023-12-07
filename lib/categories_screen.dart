@@ -20,6 +20,7 @@ class Categories extends StatelessWidget {
           childAspectRatio: 3/2,
           mainAxisExtent: 20,
           crossAxisSpacing: 20,
+          mainAxisSpacing: 20
         ),),
     );
   }
