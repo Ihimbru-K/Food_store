@@ -3,13 +3,16 @@ import './model/category.dart';
 import './model/meal.dart';
 
 const DUMMY_CATEGORIES = const{
-  Category(id: '1', title: 'Fufu and eru', color: Colors.orange),
-  Category(id: '2', title: 'Fufu and khati-khati', color: Colors.green),
-  Category(id: '3', title: 'Achu', color: Colors.blue),
-  Category(id: '4', title: 'Ndole', color: Colors.red),
-  Category(id: '5', title: 'Ekwang', color: Colors.purple),
-  Category(id: '6', title: 'Kwacoco', color: Colors.brown),
-  Category(id: '7', title: 'Bongo-chobi', color: Colors.deepOrange),
+  Category(id: '1', title: 'Fufu and eru', color: const Color(0xFF006400)),
+  Category(id: '2', title: 'Fufu and khati-khati', color: Colors.lightGreen),
+  Category(id: '3', title: 'Achu', color: Colors.yellowAccent),
+  Category(id: '4', title: 'Ndole', color: Colors.green),
+  Category(id: '5', title: 'Ekwang', color: Color.fromRGBO(160, 191, 20, 1.0)),
+  Category(id: '6', title: 'Kwacoco', color: Colors.amber),
+  Category(id: '7', title: 'Bongo-chobi', color: Colors.brown),
+  Category(id: '8', title: 'Nangtarr', color: Colors.brown),
+  Category(id: '8', title: 'Koki', color: Colors.yellow),
+
 };
 const DUMMY_MEALS = [
   Meal(
@@ -36,7 +39,7 @@ const DUMMY_MEALS = [
       'Cut the tomatoes and the onion into small pieces.',
       'Boil some water - add salt to it once it boils.',
       'Put the spaghetti into the boiling water - they should be done in about 10 to 12 minutes.',
-      'In the meantime, heaten up some olive oil and add the cut onion.',
+      'In the meantime, heat up some olive oil and add the cut onion.',
       'After 2 minutes, add the tomato pieces, salt, pepper and your other spices.',
       'The sauce will be done once the spaghetti are.',
       'Feel free to add some cheese on top of the finished dish.'
