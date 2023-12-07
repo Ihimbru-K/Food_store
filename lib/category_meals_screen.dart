@@ -10,9 +10,9 @@ class CategoryMealsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(CategoryTitle),
+      appBar: AppBar(title: Text(CategoryTitle),),
 
-      body: Center(child: Text("Category meals screen"),),
+      body: Center(child: Text("Category meals screen")),
     );
   }
 }
