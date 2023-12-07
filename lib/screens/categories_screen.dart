@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:foodstore/category_item.dart';
-import 'dummy_data.dart';
+import 'package:foodstore/widgets/category_item.dart';
+import '../dummy_data.dart';
 
 
 class Categories extends StatelessWidget {
