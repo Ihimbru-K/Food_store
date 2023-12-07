@@ -79,7 +79,8 @@ const DUMMY_MEALS = [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
+        'https://th.bing.com/th/id/R.30d4a31b2cc4d9b9ad0f5757fe92a447?rik=nunkc8W41YgiCA&riu=http%3a%2f%2fwww.mnftiu.cc%2fwp-content%2fuploads%2f2013%2f12%2fspaghetti-with-tomato-sauce.jpg&ehk=M%2fI2tiveGEI7u6Fm89ArTmYVMxZiew2h2XM%2bNHGsmPo%3d&risl=&pid=ImgRaw&r=0',
+   // 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
     duration: 20,
     ingredients: [
       '4 Tomatoes',
@@ -112,7 +113,8 @@ const DUMMY_MEALS = [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+   // 'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+    'https://www.bing.com/images/search?view=detailV2&ccid=h7NJlovi&id=6E66CECF1DAA5E6C7F47396490EBFC3B572BF772&thid=OIP.h7NJlovi_QpBckZE9MxayAHaEd&mediaurl=https%3a%2f%2fwww.gutekueche.at%2fstorage%2fmedia%2frecipe%2f9673%2fconv%2fhawaii-toast_1474714498-default.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.87b349968be2fd0a41724644f4cc5ac8%3frik%3dcvcrVzv865BkOQ%26pid%3dImgRaw%26r%3d0&exph=374&expw=620&q=Toast+hawai+image+link&simid=608037996731699236&FORM=IRPRST&ck=69F522ED1BBCA5A7A43F356B6B9F6731&selectedIndex=2&itb=0',
     duration: 10,
     ingredients: [
       '1 Slice White Bread',
