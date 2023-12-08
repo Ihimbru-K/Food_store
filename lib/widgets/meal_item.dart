@@ -26,8 +26,8 @@ class MealItem extends StatelessWidget {
           children: <Widget>[
             Stack(children: <Widget>[
               ClipRRect(borderRadius: BorderRadius.only(topLeft:
-              Radius.circular(15), topRight: Radius.circular(15)),child: Image.network(imageUrl, height: 250, width: double.infinity, fit:BoxFit.cover ),)
-
+              Radius.circular(15), topRight: Radius.circular(15)),child: Image.network(imageUrl, height: 250, width: double.infinity, fit:BoxFit.cover ),),
+              Text(title, style: TextStyle(color: Colors.white, fontSize: 26, ), softWrap: true,overflow: TextOverflow.fade,)
             ],)
           ],
         ),
