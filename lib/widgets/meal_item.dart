@@ -40,8 +40,9 @@ class MealItem extends StatelessWidget {
                   bottom: 20,
                     right: 10,
                     child: Container(
-                      width: 220,
+                      width: 300,
                       color: Colors.black54,
+                  padding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
                   child: Text(
                     title,
                     style: const TextStyle(
@@ -53,7 +54,12 @@ class MealItem extends StatelessWidget {
                   ),
                 )),
               ],
-            )
+            ),
+            Padding(padding: EdgeInsets.all(20), child: Row(children: [
+              Row(children: [
+                
+              ],)
+            ],),)
           ],
         ),
       ),
