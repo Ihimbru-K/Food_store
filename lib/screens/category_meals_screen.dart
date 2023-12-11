@@ -23,7 +23,7 @@ class CategoryMealsScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(title: Text(CategoryTitle!),),
-
+//List builder to display meal item
       body: ListView.builder(itemBuilder: (ctx, idx) {
         return MealItem(id : CategoryMeals[idx].id, title: CategoryMeals[idx].title, imageUrl: CategoryMeals[idx].title, duration: CategoryMeals[idx].duration,
           complexity: CategoryMeals[idx].complexity, affordability: CategoryMeals[idx].affordability,
